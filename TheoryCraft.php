@@ -1,7 +1,7 @@
 <?php
 
 //Call Current Page - get_permalink()
-$soCol = 'degrees-and-certificates/find-classes/honors';
+$soCol = get_permalink();
 
 //Query Foreign Database
 $mydb = new wpdb('root','root','sitecopy','localhost');
@@ -13,7 +13,7 @@ $vanURL = array_map(create_function('$o', 'return $o->vanity;'), $row);
 
 //Filter Out Bad Vanity URLS (computer generated)
 if($vanURL[0] != '' && preg_match_all('/([\/])/', $vanURL[0])<2 && preg_match_all('/([\-])/', $vanURL[0])<2) {
-    print '<div class="VanURL"><strong>' . 'Vanity URL: </strong>' . '<a href="http://austincc.edu/' . $vanURL . '">' . 'austincc.edu/';
+    print '<div class="VanURL"><strong>' . 'Vanity URL: </strong>' . '<a href="http://austincc.edu/' . $vanURL[0] . '">' . 'austincc.edu/';
     echo($vanURL[0]);
     print '</a></div>';
 }
