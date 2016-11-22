@@ -1,0 +1,89 @@
+/* ------------------------------------------------------------------------------
+Dynamically Creates Brackets Using Pseudo Classes ... example
+-------------------------------------------------------------------------------*/
+
+<div class="centerContent"><h1 class="acc_blue_brackets" style="display: inline-block!important;"> $content </h1></div>
+
+/* ------------------------------------------------------------------------------
+Creates the White Brackets
+-------------------------------------------------------------------------------*/
+
+.acc_white_brackets:before,
+.acc_white_brackets:after {
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  content: '';
+}
+
+.acc_white_brackets{
+  padding: 1% .1% 1% .1%!important;
+  position: relative;
+  color: #ffffff;
+}
+
+.acc_white_brackets:before {
+  right: -15%;
+  bottom: -15%;
+  border-right: 0.05em solid #ffffff;
+  border-bottom: 0.05em solid #ffffff;
+}
+
+.acc_white_brackets:after {
+  left: -15%;
+  top: -15%;
+  border-left: 0.05em solid #ffffff;
+  border-top: 0.05em solid #ffffff;
+}
+
+/* ------------------------------------------------------------------------------
+Creates the Blue Brackets
+-------------------------------------------------------------------------------*/
+
+.acc_blue_brackets:before,
+.acc_blue_brackets:after {
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  content: '';
+}
+
+.acc_blue_brackets{
+  padding: 1% .1% 1% .1%!important;
+  position: relative;
+  color: #002E6D;
+}
+
+.acc_blue_brackets:before {
+  right: -15%;
+  bottom: -15%;
+  border-right: 0.05em solid #002E6D;
+  border-bottom: 0.05em solid #002E6D;
+}
+
+.acc_blue_brackets:after {
+  left: -15%;
+  top: -15%;
+  border-left: 0.05em solid #002E6D;
+  border-top: 0.05em solid #002E6D;
+}
+
+
+/* ---------------------------------------------------------------------
+Creates Shortcodes for Brackets which are mapped to Visual Composer
+----------------------------------------------------------------------*/
+<?php
+
+function brac_acc( $atts , $content = null ) {
+    $atts = shortcode_atts(
+        array(
+            'brac_colo' => 'blue',
+            'h_size' => 'h1',
+        ), $atts, 'brac_acc' );
+
+    return '<div class="centerContent"><' . $atts['h_size'] . ' class="acc_' . $atts['brac_colo'] . '_brackets' . '" style="display: inline-block!important;">' . $content . '</' . $atts['h_size'] . '></div>';
+}
+add_shortcode( 'brac_acc', 'brac_acc' );
+
+
+?>

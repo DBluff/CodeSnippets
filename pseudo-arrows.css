@@ -1,0 +1,159 @@
+/* -----------------------------------------------------------------------------------
+Arrows in CSS - add the arrow-class to the section to trigger the psuedo-element arrow
+----------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------------
+Generic Arrow Code
+----------------------------------------------------------------------------------- */
+.arrow-up-secondary,
+.arrow-up-white,
+.arrow-down-secondary,
+.arrow-down-white,
+.arrow-left-secondary,
+.arrow-left-white,
+.arrow-right-secondary,
+.arrow-right-white{
+    position: relative;
+}
+
+
+/* -----------------------------------------------------------------------------------
+White Arrows ARROW/FACING/COLOR
+----------------------------------------------------------------------------------- */
+
+.arrow-up-white:before {
+    content: "";
+    border-style: solid;
+    border-width: 0 2em 3em 2em;
+    border-color: transparent transparent #FFFFFF transparent;
+    position: absolute;
+    right: 75%;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.arrow-down-white-center :before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #FFFFFF transparent transparent transparent;
+    position: absolute;
+    left: 45%;
+    top: 0;
+    z-index: 99999;
+}
+
+.arrow-down-white-right :before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #FFFFFF transparent transparent transparent;
+    position: absolute;
+    left: 75%;
+    top: 0;
+    z-index: 99999;
+}
+
+.arrow-down-white-left :before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #FFFFFF transparent transparent transparent;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    z-index: 99999;
+}
+
+.arrow-left-white :before {
+      content:"";
+    border-style: solid;
+    border-width: 2em 3em 2em 0;
+    border-color: transparent #FFFFFF transparent transparent;
+    position: absolute;
+    right: 50%;
+    bottom: 45%;
+    z-index: 99999;
+  }
+
+.arrow-right-white :before {
+    content: "";
+    border-style: solid;
+    border-width: 2em 0 2em 3em;
+    border-color: transparent transparent transparent #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 45%;
+    z-index: 99999;
+  }
+
+/* -----------------------------------------------------------------------------------
+ACC Blue Arrows #002E6D ARROW/FACING/COLOR
+----------------------------------------------------------------------------------- */
+
+.arrow-up-secondary:before {
+    content: "";
+    border-style: solid;
+    border-width: 0 2em 3em 2em;
+    border-color: transparent transparent #002E6D transparent;
+    position: absolute;
+    right: 75%;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.arrow-down-secondary-center:before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #002E6D transparent transparent transparent;
+    position: absolute;
+    left: 45%;
+    top: 0;
+    z-index: 99999;
+  }
+
+  .arrow-down-secondary-left:before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #002E6D transparent transparent transparent;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    z-index: 99999;
+  }
+
+  .arrow-down-secondary-right:before {
+content: "";
+    border-style: solid;
+    border-width: 3em 2em 0 2em;
+    border-color: #002E6D transparent transparent transparent;
+    position: absolute;
+    left: 75%;
+    top: 0;
+    z-index: 99999;
+  }
+
+.arrow-left-secondary :before { 
+    content:"";
+    border-style: solid;
+    border-width: 2em 3em 2em 0;
+    border-color: transparent #002E6D transparent transparent;
+    position: absolute;
+    right: 50%;
+    bottom: 45%;
+    z-index: 99999;
+}
+
+.arrow-right-secondary :before {
+    content: "";
+    border-style: solid;
+    border-width: 2em 0 2em 3em;
+    border-color: transparent transparent transparent #002E6D;
+    position: absolute;
+    left: 0;
+    bottom: 45%;
+    z-index: 99999;
+  }

@@ -1,0 +1,69 @@
+/* -----------------------------------------------------------------------------------
+Generic GraphicCorner Code
+----------------------------------------------------------------------------------- */
+
+/**/
+h1:before,
+h1:after {
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  content: '';
+}
+
+h1{
+  padding: 0.5em 0.8em !important;
+  position: relative;
+  display: inline;
+}
+
+:before h1,
+:after h1 {
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  -o-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+} 
+
+/* -----------------------------------------------------------------------------------
+Blue GraphicCorners
+----------------------------------------------------------------------------------- */
+.GC-heading-secondary {
+    position: relative;
+}
+
+.GC-heading-secondary h1:after {
+  left: 0;
+  top: 0;
+  background-image: url('/landingpages/files/2016/10/bracket-lt.png'); /*location of your image file*/
+  background-size: cover;
+}
+
+.GC-heading-secondary h1:before {
+  right: 0;
+  bottom: 0;
+  background-image: url('/landingpages/files/2016/10/bracke-rb.png'); /*location of your image file*/
+  background-size: cover;
+}
+
+/* -----------------------------------------------------------------------------------
+White GraphicCorners
+----------------------------------------------------------------------------------- */
+.GC-heading-white {
+    position: relative;
+}
+
+.GC-heading-white h1:after {
+  left: 0;
+  top: 0;
+  background-image: url('/landingpages/files/2016/10/bracket-white-lt.png'); /*location of your image file*/
+  background-size: cover;
+}
+
+.GC-heading-white h1:before {
+  right: 0;
+  bottom: 0;
+  background-image: url('/landingpages/files/2016/10/bracket-white-rb.png'); /*location of your image file*/
+  background-size: cover;
