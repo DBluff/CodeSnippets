@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adbaace-e9ae-4780-a647-2de437a77b36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CodeSnippets.iml" afterPath="$PROJECT_DIR$/.idea/CodeSnippets.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedirectBlock.php" afterPath="$PROJECT_DIR$/RedirectBlock.php" />
     </list>
     <ignored path="CodeSnippets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,45 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DBSites.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBSites/DBSites.php">
+      <file leaf-file-name="all.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slack_connect/hooks/all.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="35" column="1" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <element signature="e#6#225#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortTables.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBSites/SortTables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
-              <folding>
-                <marker date="1478795988569" expanded="true" signature="485:538" ph="SELECT * FRO... wp_blogs" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-sites-categories-columns.php" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/inc/class-sites-categories-columns.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1126">
-              <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-              <folding>
-                <marker date="1381509564000" expanded="true" signature="1743:1753" ph="..." />
-                <marker date="1381509564000" expanded="true" signature="2931:2992" ph="SELECT * FRO... $" />
-                <marker date="1381509564000" expanded="true" signature="3296:3380" ph="SELECT * FRO... $" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mail</find>
+      <find>hook</find>
+      <find>[7:17]</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -74,6 +55,16 @@
         <option value="$USER_HOME$/Downloads/multisite-site-category-master/multisite-site-category.php" />
         <option value="$PROJECT_DIR$/DBSites/DBSites.php" />
         <option value="$USER_HOME$/Downloads/multisite-site-category-master/inc/class-sites-categories-columns.php" />
+        <option value="$PROJECT_DIR$/message.json" />
+        <option value="$PROJECT_DIR$/Slack-ResourceSpace/slack_conf.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/include/resource_functions.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/etc/apache2/apache2.conf" />
+        <option value="$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/slack_connect.yaml" />
+        <option value="$PROJECT_DIR$/Slack-ResourceSpace/all.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/hooks/search.php" />
+        <option value="$PROJECT_DIR$/Slack-ResourceSpace/test.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/hooks/all.php" />
+        <option value="$PROJECT_DIR$/slack_connect/hooks/all.php" />
       </list>
     </option>
   </component>
@@ -83,23 +74,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1272" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -122,12 +104,6 @@
               <option name="myItemId" value="CodeSnippets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeSnippets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CodeSnippets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -143,30 +119,59 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DBSites" />
+              <option name="myItemId" value="slack_connect" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeSnippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeSnippets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slack_connect" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hooks" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ResourceSpace_7_9_8760" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\CodeSnippets\Slack-ResourceSpace" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\CodeSnippets" />
       <recent name="C:\wamp\www\CodeSnippets\DBSites" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.test.php">
+    <configuration default="false" name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodeSnippets/Slack-ResourceSpace/test.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -182,6 +187,10 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -213,6 +222,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -226,6 +243,7 @@
       <updated>1478107785707</updated>
       <workItem from="1478107787248" duration="1196000" />
       <workItem from="1478792916939" duration="9617000" />
+      <workItem from="1481116369389" duration="29582000" />
     </task>
     <task id="LOCAL-00001" summary="Push through PHPStorm">
       <created>1478793074659</created>
@@ -238,31 +256,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10813000" />
+    <option name="totallyTimeSpent" value="40395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1296" height="1040" extended-state="1" />
-    <editor active="true" />
+    <frame x="1272" y="-8" width="1296" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -284,100 +306,997 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShortcodeFunctions.php">
+    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/inc/class-sites-categories-columns.php" />
+    <entry file="file://$PROJECT_DIR$/message.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478108986000" expanded="true" signature="390:422" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pseudo-arrows.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShortcodeFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <marker date="1478108986000" expanded="true" signature="390:422" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/js/msc-repeatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/js/msc-dropdown.js">
+    <entry file="file://$PROJECT_DIR$/Slack-ResourceSpace/slack_conf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/inc/update.json">
+    <entry file="file://$PROJECT_DIR$/Slack-ResourceSpace/slack_push">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-359">
+          <caret line="3" column="93" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/multisite-site-category.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/slack_conf2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="174" column="37" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="37" />
+        <state relative-caret-position="-224">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/include/resource_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="457" column="34" lean-forward="false" selection-start-line="457" selection-start-column="12" selection-end-line="457" selection-end-column="34" />
           <folding>
-            <marker date="1478797576410" expanded="true" signature="1132:1140" ph="¿" />
-            <marker date="1478797576410" expanded="true" signature="7238:7409" ph="..." />
-            <marker date="1478797576410" expanded="true" signature="7278:7397" ph="{...}" />
-            <marker date="1478797576410" expanded="true" signature="9681:9803" ph="SELECT blog_... ${$wpdb-&gt;blogs}" />
-            <marker date="1478797576410" expanded="true" signature="11129:11137" ph="♥" />
+            <marker date="1481055321000" expanded="true" signature="813:932" ph="insert into resource... " />
+            <marker date="1481055321000" expanded="true" signature="11257:11357" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="11493:11626" ph="insert into resource_data... " />
+            <marker date="1481055321000" expanded="true" signature="12833:12949" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="14244:14369" ph="select name " />
+            <marker date="1481055321000" expanded="true" signature="14614:14682" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="15005:15102" ph="insert into resource_related... " />
+            <marker date="1481055321000" expanded="true" signature="16243:16350" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="18320:18402" ph="select ref v... " />
+            <marker date="1481055321000" expanded="true" signature="25096:25202" ph="select value... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="28422:28538" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="28651:28751" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="28892:29026" ph="insert into resource_data... " />
+            <marker date="1481055321000" expanded="true" signature="31425:31524" ph="INSERT INTO resource_related... " />
+            <marker date="1481055321000" expanded="true" signature="32128:32179" ph="select archi... " />
+            <marker date="1481055321000" expanded="true" signature="32891:32962" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="35203:35288" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="35495:35545" ph="select acces... " />
+            <marker date="1481055321000" expanded="true" signature="35601:35654" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="36648:36742" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="36818:36903" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="37090:37165" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="37204:37275" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="39961:40166" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="40209:40328" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="40406:40474" ph="update keywo... " />
+            <marker date="1481055321000" expanded="true" signature="42789:42960" ph="insert into resource_keyword... " />
+            <marker date="1481055321000" expanded="true" signature="43153:43255" ph="INSERT INTO `resource_keyword`... " />
+            <marker date="1481055321000" expanded="true" signature="43438:43574" ph="insert into resource_keyword... " />
+            <marker date="1481055321000" expanded="true" signature="43642:43702" ph="update keywo... " />
+            <marker date="1481055321000" expanded="true" signature="43931:44077" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="44475:44554" ph="select ref v... " />
+            <marker date="1481055321000" expanded="true" signature="44628:44748" ph="select ref,k... resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="47685:47776" ph="select value... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="49364:49455" ph="select value... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="50007:50092" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="50210:50310" ph="insert into resource_data... " />
+            <marker date="1481055321000" expanded="true" signature="51071:51153" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="57287:57374" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="57548:57601" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59237:59294" ph="select * fro... collection_resource" />
+            <marker date="1481055321000" expanded="true" signature="59656:59693" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59709:59756" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59772:59825" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59841:59891" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59907:59975" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="59991:60044" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="60060:60116" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="60132:60186" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="60202:60254" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="60452:60487" ph="select max(r... " />
+            <marker date="1481055321000" expanded="true" signature="60641:60737" ph="select ref v... " />
+            <marker date="1481055321000" expanded="true" signature="61337:61390" ph="select count... " />
+            <marker date="1481055321000" expanded="true" signature="61612:61800" ph="SELECT rtf.r... " />
+            <marker date="1481055321000" expanded="true" signature="62226:62278" ph="select archi... " />
+            <marker date="1481055321000" expanded="true" signature="62495:62773" ph="insert into resource... " />
+            <marker date="1481055321000" expanded="true" signature="62594:62773" ph="select ${$ad... resource" />
+            <marker date="1481055321000" expanded="true" signature="63367:63424" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="63681:64023" ph="insert into resource_data... " />
+            <marker date="1481055321000" expanded="true" signature="63743:64023" ph="select '${$t... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="64121:64233" ph="insert into resource_related... " />
+            <marker date="1481055321000" expanded="true" signature="64168:64233" ph="select '${$t... resource_related" />
+            <marker date="1481055321000" expanded="true" signature="64265:64407" ph="insert into resource_custom_access... " />
+            <marker date="1481055321000" expanded="true" signature="64327:64407" ph="select '${$t... resource_custom_access" />
+            <marker date="1481055321000" expanded="true" signature="66512:66607" ph="UPDATE `reso... " />
+            <marker date="1481055321000" expanded="true" signature="66731:67309" ph="INSERT INTO `resource_log`... " />
+            <marker date="1481055321000" expanded="true" signature="68697:68751" ph="select name " />
+            <marker date="1481055321000" expanded="true" signature="69370:69766" ph="SELECT g.ref... usergroup" />
+            <marker date="1481055321000" expanded="true" signature="70215:70624" ph="SELECT g.nam... " />
+            <marker date="1481055321000" expanded="true" signature="70760:70847" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="70987:71092" ph="insert into resource_custom_access... " />
+            <marker date="1481055321000" expanded="true" signature="71371:71472" ph="select acces... " />
+            <marker date="1481055321000" expanded="true" signature="71828:72046" ph="select c.ref... collection_resource" />
+            <marker date="1481055321000" expanded="true" signature="72740:72798" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="72892:73076" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="72972:73075" ph="select ref f... resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="73092:73305" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="73201:73304" ph="select ref f... resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="73502:73578" ph="select name " />
+            <marker date="1481055321000" expanded="true" signature="73860:73928" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="73947:74047" ph="insert into resource_related... " />
+            <marker date="1481055321000" expanded="true" signature="74219:74516" ph="select f.ref... resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="84287:84437" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="87073:87300" ph="select ref,n... resource_alt_files" />
+            <marker date="1481055321000" expanded="true" signature="87446:87799" ph="insert into resource_alt_files... " />
+            <marker date="1481055321000" expanded="true" signature="88588:88621" ph="select id va... " />
+            <marker date="1481055321000" expanded="true" signature="89731:89803" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="90044:90195" ph="select ref,n... resource_alt_files" />
+            <marker date="1481055321000" expanded="true" signature="90442:90660" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="91212:91264" ph="select user,... user_rating" />
+            <marker date="1481055321000" expanded="true" signature="91782:91842" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="91887:91963" ph="update user_... " />
+            <marker date="1481055321000" expanded="true" signature="92144:92222" ph="insert into user_rating... " />
+            <marker date="1481055321000" expanded="true" signature="92529:92642" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="92922:93052" ph="SELECT user.... resource" />
+            <marker date="1481055321000" expanded="true" signature="98312:98676" ph="select ref, resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="99296:99622" ph="select ref, resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="100416:100673" ph="SELECT rk.re... resource_keyword" />
+            <marker date="1481055321000" expanded="true" signature="102685:102814" ph="select resou... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="103630:103713" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="104593:104722" ph="select resou... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="105293:105376" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="105688:105797" ph="select disti... " />
+            <marker date="1481055321000" expanded="true" signature="108303:108461" ph="SELECT acces... external_access_keys" />
+            <marker date="1481055321000" expanded="true" signature="114047:114187" ph="select acces... " />
+            <marker date="1481055321000" expanded="true" signature="114575:114739" ph="update exter... " />
+            <marker date="1481055321000" expanded="true" signature="116080:116285" ph="select cr.pu... " />
+            <marker date="1481055321000" expanded="true" signature="116653:116739" ph="select allow... " />
+            <marker date="1481055321000" expanded="true" signature="122503:122568" ph="select file_... " />
+            <marker date="1481055321000" expanded="true" signature="122615:122758" ph="select resou... resource" />
+            <marker date="1481055321000" expanded="true" signature="124871:125011" ph="select ref,f... resource" />
+            <marker date="1481055321000" expanded="true" signature="125727:126324" ph="select * fro... *" />
+            <marker date="1481055321000" expanded="true" signature="125744:126227" ph="select c.*,u... " />
+            <marker date="1481055321000" expanded="true" signature="126255:126319" ph="select colle... collection_resource" />
+            <marker date="1481055321000" expanded="true" signature="126459:126588" ph="select usage... resource_log" />
+            <marker date="1481055321000" expanded="true" signature="127367:127429" ph="select resou... " />
+            <marker date="1481055321000" expanded="true" signature="127477:127622" ph="select ref,a... resource_type_field" />
+            <marker date="1481055321000" expanded="true" signature="127679:127785" ph="select value... resource_data" />
+            <marker date="1481055321000" expanded="true" signature="128423:128456" ph="select id va... " />
+            <marker date="1481055321000" expanded="true" signature="128497:128575" ph="select file_... " />
+            <marker date="1481055321000" expanded="true" signature="131047:131136" ph="select file_... " />
+            <marker date="1481055321000" expanded="true" signature="134072:134126" ph="DELETE FROM " />
+            <marker date="1481055321000" expanded="true" signature="135190:135315" ph="select name " />
+            <marker date="1481055321000" expanded="true" signature="135909:135967" ph="select page_... " />
+            <marker date="1481055321000" expanded="true" signature="136104:136168" ph="select page_... " />
+            <marker date="1481055321000" expanded="true" signature="136697:136771" ph="select ref v... " />
+            <marker date="1481055321000" expanded="true" signature="137633:137693" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="137736:137802" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="137995:138060" ph="select file_... " />
+            <marker date="1481055321000" expanded="true" signature="138681:138791" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="139101:139237" ph="select ref v... " />
+            <marker date="1481055321000" expanded="true" signature="139416:139458" ph="select sum(d... " />
+            <marker date="1481055321000" expanded="true" signature="140408:140462" ph="select creat... " />
+            <marker date="1481055321000" expanded="true" signature="141803:141848" ph="select email... " />
+            <marker date="1481055321000" expanded="true" signature="142397:142446" ph="select * fro... resource_dimensions" />
+            <marker date="1481055321000" expanded="true" signature="142652:142699" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="143922:144058" ph="insert into resource_dimensions... " />
+            <marker date="1481055321000" expanded="true" signature="144097:144212" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="144554:144690" ph="insert into resource_dimensions... " />
+            <marker date="1481055321000" expanded="true" signature="144729:144844" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="146166:146302" ph="insert into resource_dimensions... " />
+            <marker date="1481055321000" expanded="true" signature="146345:146460" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="146670:146789" ph="insert into resource_dimensions... " />
+            <marker date="1481055321000" expanded="true" signature="146832:146931" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="147620:147859" ph="insert into external_access_keys... " />
+            <marker date="1481055321000" expanded="true" signature="148293:148603" ph="select acces... external_access_keys" />
+            <marker date="1481055321000" expanded="true" signature="148701:148789" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="149432:149527" ph="select confi... " />
+            <marker date="1481055321000" expanded="true" signature="149885:149990" ph="update resou... " />
+            <marker date="1481055321000" expanded="true" signature="150310:150480" ph="SELECT ref A... " />
+            <marker date="1481055321000" expanded="true" signature="151075:151165" ph="SELECT resou... " />
+            <marker date="1481055321000" expanded="true" signature="151545:151714" ph="UPDATE resou... " />
+            <marker date="1481055321000" expanded="true" signature="151963:152028" ph="DELETE FROM " />
+            <marker date="1481055321000" expanded="true" signature="152245:152386" ph="select count... " />
+            <marker date="1481055321000" expanded="true" signature="152493:152612" ph="delete from " />
+            <marker date="1481055321000" expanded="true" signature="152730:152803" ph="insert into resource_related... " />
+            <marker date="1481055321000" expanded="true" signature="153786:153890" ph="delete from " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBSites/DBSites.php">
+    <entry file="file://$PROJECT_DIR$/TheoryCraft.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="35" column="1" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#225#0#PHP" expanded="true" />
+            <marker date="1480540510585" expanded="true" signature="209:407" ph="SELECT redir... redirect" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBSites/SortTables.php">
+    <entry file="file://$PROJECT_DIR$/RedirectBlock.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="56">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1478795988569" expanded="true" signature="485:538" ph="SELECT * FRO... wp_blogs" />
+            <marker date="1479830458297" expanded="true" signature="73:271" ph="SELECT redir... redirect" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/multisite-site-category-master/inc/class-sites-categories-columns.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/etc/phpmyadmin/apache.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1126">
-          <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+        <state relative-caret-position="812">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/etc/apache2/apache2.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="220" column="44" lean-forward="false" selection-start-line="220" selection-start-column="44" selection-end-line="220" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/slack_connect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/api_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/plugin_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="12" />
           <folding>
-            <marker date="1381509564000" expanded="true" signature="1743:1753" ph="..." />
-            <marker date="1381509564000" expanded="true" signature="2931:2992" ph="SELECT * FRO... $" />
-            <marker date="1381509564000" expanded="true" signature="3296:3380" ph="SELECT * FRO... $" />
+            <marker date="1470845808000" expanded="true" signature="1452:1504" ph="SELECT name " />
+            <marker date="1470845808000" expanded="true" signature="1570:1611" ph="INSERT INTO plugins... " />
+            <marker date="1470845808000" expanded="true" signature="1648:2131" ph="UPDATE plugi... " />
+            <marker date="1470845808000" expanded="true" signature="2708:2768" ph="SELECT inst_... " />
+            <marker date="1470845808000" expanded="true" signature="2963:3018" ph="UPDATE plugi... " />
+            <marker date="1470845808000" expanded="true" signature="3435:3502" ph="UPDATE plugi... " />
+            <marker date="1470845808000" expanded="true" signature="8940:8997" ph="SELECT confi... plugins" />
+            <marker date="1470845808000" expanded="true" signature="10636:10737" ph="UPDATE plugi... " />
+            <marker date="1470845808000" expanded="true" signature="11043:11115" ph="SELECT name plugins" />
+            <marker date="1470845808000" expanded="true" signature="36782:36902" ph="select * fro... resource_type_field" />
+            <marker date="1470845808000" expanded="true" signature="36946:37092" ph="select * fro... resource_type_field" />
+            <marker date="1470845808000" expanded="true" signature="39338:39500" ph="select f.ref... resource_type_field" />
+            <marker date="1470845808000" expanded="true" signature="39544:39729" ph="select f.ref... resource_type_field" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/file_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/edit_upload_options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="289" column="13" lean-forward="false" selection-start-line="289" selection-start-column="9" selection-end-line="289" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/message_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462501326000" expanded="true" signature="2006:2251" ph="INSERT INTO `message`... " />
+            <marker date="1462501326000" expanded="true" signature="2332:2406" ph="INSERT INTO `user_message`... " />
+            <marker date="1462501326000" expanded="true" signature="2757:2796" ph="select email... " />
+            <marker date="1462501326000" expanded="true" signature="3272:3323" ph="DELETE FROM " />
+            <marker date="1462501326000" expanded="true" signature="3339:3381" ph="DELETE FROM " />
+            <marker date="1462501326000" expanded="true" signature="3611:3686" ph="UPDATE `user... " />
+            <marker date="1462501326000" expanded="true" signature="3872:3931" ph="UPDATE `user... " />
+            <marker date="1462501326000" expanded="true" signature="4687:4776" ph="DELETE FROM " />
+            <marker date="1462501326000" expanded="true" signature="4730:4775" ph="SELECT ref F... message" />
+            <marker date="1462501326000" expanded="true" signature="4792:4833" ph="DELETE FROM " />
+            <marker date="1462501326000" expanded="true" signature="5162:5213" ph="select value... sysvars" />
+            <marker date="1462501326000" expanded="true" signature="5405:5670" ph="select u.ref... user_message" />
+            <marker date="1462501326000" expanded="true" signature="6454:6620" ph="update user_... " />
+            <marker date="1462501326000" expanded="true" signature="7367:7412" ph="delete from " />
+            <marker date="1462501326000" expanded="true" signature="7428:7489" ph="insert into sysvars... " />
+            <marker date="1462501326000" expanded="true" signature="8012:8138" ph="select ref v... " />
+            <marker date="1462501326000" expanded="true" signature="8221:8293" ph="DELETE FROM " />
+            <marker date="1462501326000" expanded="true" signature="8317:8398" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/image_processing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <marker date="1470771570000" expanded="true" signature="1176:1222" ph="delete from " />
+            <marker date="1470771570000" expanded="true" signature="1254:1303" ph="delete from " />
+            <marker date="1470771570000" expanded="true" signature="1928:1976" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="2089:2141" ph="select file_... " />
+            <marker date="1470771570000" expanded="true" signature="4886:4944" ph="select file_... " />
+            <marker date="1470771570000" expanded="true" signature="6738:6857" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="6916:6969" ph="delete from " />
+            <marker date="1470771570000" expanded="true" signature="11192:11276" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="11614:11662" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="14270:14430" ph="insert into resource_dimensions... " />
+            <marker date="1470771570000" expanded="true" signature="16877:16938" ph="SELECT resou... resource" />
+            <marker date="1470771570000" expanded="true" signature="18257:18377" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="29009:29069" ph="select * fro... resource_type_field" />
+            <marker date="1470771570000" expanded="true" signature="31746:31798" ph="select file_... " />
+            <marker date="1470771570000" expanded="true" signature="32049:32110" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="33670:33754" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="34803:34928" ph="SELECT ref F... resource_alt_files" />
+            <marker date="1470771570000" expanded="true" signature="37816:38129" ph="UPDATE resou... " />
+            <marker date="1470771570000" expanded="true" signature="39330:39357" ph="select * fro... preview_size" />
+            <marker date="1470771570000" expanded="true" signature="41431:41504" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="41652:41763" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="46822:46888" ph="select * fro... preview_size" />
+            <marker date="1470771570000" expanded="true" signature="69523:69634" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="69692:69776" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="71321:71497" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="76061:76104" ph="select * fro... preview_size" />
+            <marker date="1470771570000" expanded="true" signature="76136:76215" ph="select * fro... preview_size" />
+            <marker date="1470771570000" expanded="true" signature="76901:76963" ph="select thumb... resource" />
+            <marker date="1470771570000" expanded="true" signature="76980:77106" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="77543:77599" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="77815:77875" ph="select previ... " />
+            <marker date="1470771570000" expanded="true" signature="78518:78590" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="78708:78772" ph="select * fro... preview_size" />
+            <marker date="1470771570000" expanded="true" signature="83505:83594" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="84037:84095" ph="update resou... " />
+            <marker date="1470771570000" expanded="true" signature="84949:85027" ph="SELECT is_tr... " />
+            <marker date="1470771570000" expanded="true" signature="92716:92768" ph="select file_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1473273760000" expanded="true" signature="1204:1257" ph="select file_... " />
+            <marker date="1473273760000" expanded="true" signature="6201:6248" ph="select *,map... resource" />
+            <marker date="1473273760000" expanded="true" signature="6835:6935" ph="insert into resource... " />
+            <marker date="1473273760000" expanded="true" signature="6978:7025" ph="select *,map... resource" />
+            <marker date="1473273760000" expanded="true" signature="7549:7635" ph="update resou... " />
+            <marker date="1473273760000" expanded="true" signature="7797:7849" ph="select * fro... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="8625:8690" ph="select resou... " />
+            <marker date="1473273760000" expanded="true" signature="9041:9386" ph="select d.val... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="9152:9201" ph="select * fro... resource_data" />
+            <marker date="1473273760000" expanded="true" signature="9744:9779" ph="select ref v... " />
+            <marker date="1473273760000" expanded="true" signature="11177:11461" ph="select d.res... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="11367:11422" ph="select resou... resource" />
+            <marker date="1473273760000" expanded="true" signature="12640:12694" ph="select * fro... resource_type" />
+            <marker date="1473273760000" expanded="true" signature="13491:13765" ph="select disti... resource_data" />
+            <marker date="1473273760000" expanded="true" signature="19586:19668" ph="select ref v... " />
+            <marker date="1473273760000" expanded="true" signature="19803:19941" ph="insert into keyword... " />
+            <marker date="1473273760000" expanded="true" signature="22325:22450" ph="update resou... " />
+            <marker date="1473273760000" expanded="true" signature="22688:22739" ph="update resou... " />
+            <marker date="1473273760000" expanded="true" signature="23007:23070" ph="update resou... " />
+            <marker date="1473273760000" expanded="true" signature="23136:23184" ph="update resou... " />
+            <marker date="1473273760000" expanded="true" signature="23651:23708" ph="select resou... " />
+            <marker date="1473273760000" expanded="true" signature="23782:23867" ph="select name " />
+            <marker date="1473273760000" expanded="true" signature="24353:24439" ph="select width... resource_dimensions" />
+            <marker date="1473273760000" expanded="true" signature="25581:25627" ph="select * fro... preview_size" />
+            <marker date="1473273760000" expanded="true" signature="27656:27713" ph="select quali... " />
+            <marker date="1473273760000" expanded="true" signature="29591:29726" ph="select relat... " />
+            <marker date="1473273760000" expanded="true" signature="30876:30985" ph="select value... resource_data" />
+            <marker date="1473273760000" expanded="true" signature="31078:31157" ph="select type " />
+            <marker date="1473273760000" expanded="true" signature="31203:31369" ph="select value... resource_data" />
+            <marker date="1473273760000" expanded="true" signature="31462:31542" ph="select type " />
+            <marker date="1473273760000" expanded="true" signature="33157:33317" ph="select u.*,g... user" />
+            <marker date="1473273760000" expanded="true" signature="34005:34042" ph="select ref,p... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="34304:34494" ph="select u.*,g... user" />
+            <marker date="1473273760000" expanded="true" signature="34852:35024" ph="select u.*,g... user" />
+            <marker date="1473273760000" expanded="true" signature="35397:35472" ph="select ref v... " />
+            <marker date="1473273760000" expanded="true" signature="36543:36613" ph="select * fro... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="37885:38118" ph="select ref,n... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="38514:38836" ph="select u.*, user" />
+            <marker date="1473273760000" expanded="true" signature="39434:39471" ph="DELETE FROM " />
+            <marker date="1473273760000" expanded="true" signature="40562:40678" ph="SELECT count... " />
+            <marker date="1473273760000" expanded="true" signature="43098:43564" ph="update user " />
+            <marker date="1473273760000" expanded="true" signature="43993:44156" ph="DELETE FROM " />
+            <marker date="1473273760000" expanded="true" signature="44966:45040" ph="select welco... " />
+            <marker date="1473273760000" expanded="true" signature="45969:46035" ph="select usern... user" />
+            <marker date="1473273760000" expanded="true" signature="46318:46419" ph="update user " />
+            <marker date="1473273760000" expanded="true" signature="47275:47438" ph="SELECT ref, user" />
+            <marker date="1473273760000" expanded="true" signature="47990:48082" ph="SELECT welco... " />
+            <marker date="1473273760000" expanded="true" signature="49888:49967" ph="select allow... " />
+            <marker date="1473273760000" expanded="true" signature="50137:50193" ph="select email... " />
+            <marker date="1473273760000" expanded="true" signature="51333:51672" ph="insert into user... " />
+            <marker date="1473273760000" expanded="true" signature="52750:52810" ph="SELECT ref v... " />
+            <marker date="1473273760000" expanded="true" signature="53172:53244" ph="UPDATE user " />
+            <marker date="1473273760000" expanded="true" signature="58321:58378" ph="select count... " />
+            <marker date="1473273760000" expanded="true" signature="58506:58574" ph="insert into user... " />
+            <marker date="1473273760000" expanded="true" signature="58996:59057" ph="update user " />
+            <marker date="1473273760000" expanded="true" signature="59338:59414" ph="SELECT DISTI... daily_stat" />
+            <marker date="1473273760000" expanded="true" signature="59528:59584" ph="select disti... " />
+            <marker date="1473273760000" expanded="true" signature="60435:60597" ph="select u.use... user" />
+            <marker date="1473273760000" expanded="true" signature="64266:64296" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="65551:65665" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="65815:65933" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="66097:66218" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="67323:67387" ph="select custo... site_text" />
+            <marker date="1473273760000" expanded="true" signature="67753:67812" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="67939:67996" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="68057:68141" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="68202:68358" ph="insert into site_text... " />
+            <marker date="1473273760000" expanded="true" signature="68444:68507" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="68551:68661" ph="insert into site_text... " />
+            <marker date="1473273760000" expanded="true" signature="68705:68816" ph="select * fro... site_text" />
+            <marker date="1473273760000" expanded="true" signature="68911:69067" ph="insert into site_text... " />
+            <marker date="1473273760000" expanded="true" signature="69259:69407" ph="update site_... " />
+            <marker date="1473273760000" expanded="true" signature="69719:69846" ph="select text " />
+            <marker date="1473273760000" expanded="true" signature="69882:70030" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="73270:73394" ph="update user " />
+            <marker date="1473273760000" expanded="true" signature="76229:76303" ph="SELECT ref A... " />
+            <marker date="1473273760000" expanded="true" signature="82646:82721" ph="select lang,... user" />
+            <marker date="1473273760000" expanded="true" signature="83242:83366" ph="select langu... " />
+            <marker date="1473273760000" expanded="true" signature="83412:83525" ph="select langu... " />
+            <marker date="1473273760000" expanded="true" signature="85184:85209" ph="..." />
+            <marker date="1473273760000" expanded="true" signature="101282:101419" ph="select * fro... preview_size" />
+            <marker date="1473273760000" expanded="true" signature="101821:101883" ph="select allow... " />
+            <marker date="1473273760000" expanded="true" signature="104075:104153" ph="select ref a... " />
+            <marker date="1473273760000" expanded="true" signature="104395:104426" ph="select ref, usergroup" />
+            <marker date="1473273760000" expanded="true" signature="104679:104747" ph="SELECT usern... user" />
+            <marker date="1473273760000" expanded="true" signature="106294:106372" ph="select ref a... " />
+            <marker date="1473273760000" expanded="true" signature="106615:106646" ph="select ref, usergroup" />
+            <marker date="1473273760000" expanded="true" signature="106907:106966" ph="select usern... " />
+            <marker date="1473273760000" expanded="true" signature="107739:107917" ph="select disti... " />
+            <marker date="1473273760000" expanded="true" signature="107982:108272" ph="select disti... " />
+            <marker date="1473273760000" expanded="true" signature="110156:110221" ph="select relat... " />
+            <marker date="1473273760000" expanded="true" signature="110330:110574" ph="select keywo... " />
+            <marker date="1473273760000" expanded="true" signature="111034:111272" ph="select k1.ke... keyword_related" />
+            <marker date="1473273760000" expanded="true" signature="111462:111513" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="111596:111699" ph="insert into keyword_related... " />
+            <marker date="1473273760000" expanded="true" signature="111830:111884" ph="select value... sysvars" />
+            <marker date="1473273760000" expanded="true" signature="112073:112104" ph="select count... " />
+            <marker date="1473273760000" expanded="true" signature="112139:112174" ph="select count... " />
+            <marker date="1473273760000" expanded="true" signature="112345:112393" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="112409:112473" ph="insert into sysvars... " />
+            <marker date="1473273760000" expanded="true" signature="112700:112779" ph="select conca... " />
+            <marker date="1473273760000" expanded="true" signature="113396:113956" ph="select *, re... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="126172:126315" ph="select user,... external_access_keys" />
+            <marker date="1473273760000" expanded="true" signature="127231:127388" ph="select g.ref... user" />
+            <marker date="1473273760000" expanded="true" signature="128298:128428" ph="SELECT name,... plugins" />
+            <marker date="1473273760000" expanded="true" signature="130155:130250" ph="update exter... " />
+            <marker date="1473273760000" expanded="true" signature="131439:131548" ph="UPDATE exter... " />
+            <marker date="1473273760000" expanded="true" signature="132288:132386" ph="select count... " />
+            <marker date="1473273760000" expanded="true" signature="132715:132796" ph="select ref,n... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="133493:133918" ph="select *, re... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="134473:134550" ph="select ref f... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="135142:135228" ph="select name resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="135644:135750" ph="select name resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="136503:136654" ph="select *, re... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="137601:137652" ph="select resou... " />
+            <marker date="1473273760000" expanded="true" signature="137695:137756" ph="select allow... " />
+            <marker date="1473273760000" expanded="true" signature="137888:137965" ph="select allow... " />
+            <marker date="1473273760000" expanded="true" signature="145322:145400" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="145436:145581" ph="insert into resource_custom_access... " />
+            <marker date="1473273760000" expanded="true" signature="145801:145872" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="145917:146066" ph="insert into resource_custom_access... " />
+            <marker date="1473273760000" expanded="true" signature="146686:146737" ph="select ref v... " />
+            <marker date="1473273760000" expanded="true" signature="147040:147118" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="147317:147374" ph="select count... " />
+            <marker date="1473273760000" expanded="true" signature="151263:151439" ph="update colle... " />
+            <marker date="1473273760000" expanded="true" signature="151725:151806" ph="update colle... " />
+            <marker date="1473273760000" expanded="true" signature="151913:151977" ph="select * fro... collection_resource" />
+            <marker date="1473273760000" expanded="true" signature="154286:154365" ph="update colle... " />
+            <marker date="1473273760000" expanded="true" signature="159549:159589" ph="..." />
+            <marker date="1473273760000" expanded="true" signature="173518:173646" ph="SELECT email... user" />
+            <marker date="1473273760000" expanded="true" signature="180195:180262" ph="select ref a... " />
+            <marker date="1473273760000" expanded="true" signature="181310:181689" ph="select *, re... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="182704:182883" ph="select u.ref... resource_log" />
+            <marker date="1473273760000" expanded="true" signature="186160:186248" ph="SELECT `name... resource_type_field" />
+            <marker date="1473273760000" expanded="true" signature="188227:188334" ph="update user " />
+            <marker date="1473273760000" expanded="true" signature="193530:193711" ph="select ref, user" />
+            <marker date="1473273760000" expanded="true" signature="194125:194340" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="194755:194956" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="195199:195400" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="195628:195873" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="196167:196368" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="196868:196948" ph="select u.ref... usergroup" />
+            <marker date="1473273760000" expanded="true" signature="200924:201235" ph="insert into job_queue... " />
+            <marker date="1473273760000" expanded="true" signature="201348:201425" ph="update job_q... " />
+            <marker date="1473273760000" expanded="true" signature="201651:201697" ph="delete from " />
+            <marker date="1473273760000" expanded="true" signature="202623:202871" ph="select j.ref... job_queue" />
+            <marker date="1473273760000" expanded="true" signature="204212:204312" ph="update user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/preview_preprocessing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <marker date="1472587950000" expanded="true" signature="1799:1847" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="2083:2131" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="13142:13216" ph="delete from " />
+            <marker date="1472587950000" expanded="true" signature="13476:13687" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="14775:14849" ph="delete from " />
+            <marker date="1472587950000" expanded="true" signature="15109:15320" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="24072:24127" ph="SELECT width... preview_size" />
+            <marker date="1472587950000" expanded="true" signature="27883:27967" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="30588:30640" ph="select width... preview_size" />
+            <marker date="1472587950000" expanded="true" signature="36140:36198" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="36558:36620" ph="update resou... " />
+            <marker date="1472587950000" expanded="true" signature="36710:36778" ph="update resou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/request_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="671" column="8" lean-forward="false" selection-start-line="671" selection-start-column="4" selection-end-line="671" selection-end-column="8" />
+          <folding>
+            <marker date="1470433134000" expanded="true" signature="166:476" ph="select u.use... request" />
+            <marker date="1470433134000" expanded="true" signature="738:1064" ph="select u.use... request" />
+            <marker date="1470433134000" expanded="true" signature="833:909" ph="select count... collection_resource" />
+            <marker date="1470433134000" expanded="true" signature="1899:1955" ph="update reque... " />
+            <marker date="1470433134000" expanded="true" signature="2060:2126" ph="update reque... " />
+            <marker date="1470433134000" expanded="true" signature="8285:8442" ph="update reque... " />
+            <marker date="1470433134000" expanded="true" signature="8623:8663" ph="delete from " />
+            <marker date="1470433134000" expanded="true" signature="9275:9573" ph="select u.use... request" />
+            <marker date="1470433134000" expanded="true" signature="9309:9385" ph="select count... collection_resource" />
+            <marker date="1470433134000" expanded="true" signature="13165:13293" ph="select r.res... " />
+            <marker date="1470433134000" expanded="true" signature="15367:15433" ph="update resou... " />
+            <marker date="1470433134000" expanded="true" signature="19850:19993" ph="insert into request... " />
+            <marker date="1470433134000" expanded="true" signature="20634:21439" ph="INSERT INTO request... " />
+            <marker date="1470433134000" expanded="true" signature="25894:26767" ph="INSERT INTO request... " />
+            <marker date="1470433134000" expanded="true" signature="27094:27859" ph="INSERT INTO request... " />
+            <marker date="1470433134000" expanded="true" signature="31521:31649" ph="select r.res... " />
+            <marker date="1470433134000" expanded="true" signature="34404:34470" ph="update resou... " />
+            <marker date="1470433134000" expanded="true" signature="40599:40665" ph="update resou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/include/resource_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <marker date="1481045889366" expanded="true" signature="813:932" ph="insert into resource... " />
+            <marker date="1481045889366" expanded="true" signature="11257:11357" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="11493:11626" ph="insert into resource_data... " />
+            <marker date="1481045889366" expanded="true" signature="12833:12949" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="14244:14369" ph="select name " />
+            <marker date="1481045889366" expanded="true" signature="14614:14682" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="15005:15102" ph="insert into resource_related... " />
+            <marker date="1481045889366" expanded="true" signature="16243:16350" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="18320:18402" ph="select ref v... " />
+            <marker date="1481045889366" expanded="true" signature="25096:25202" ph="select value... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="28422:28538" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="28651:28751" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="28892:29026" ph="insert into resource_data... " />
+            <marker date="1481045889366" expanded="true" signature="31425:31524" ph="INSERT INTO resource_related... " />
+            <marker date="1481045889366" expanded="true" signature="32128:32179" ph="select archi... " />
+            <marker date="1481045889366" expanded="true" signature="32891:32962" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="35203:35288" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="35495:35545" ph="select acces... " />
+            <marker date="1481045889366" expanded="true" signature="35601:35654" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="36648:36742" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="36818:36903" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="37090:37165" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="37204:37275" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="39961:40166" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="40209:40328" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="40406:40474" ph="update keywo... " />
+            <marker date="1481045889366" expanded="true" signature="42789:42960" ph="insert into resource_keyword... " />
+            <marker date="1481045889366" expanded="true" signature="43153:43255" ph="INSERT INTO `resource_keyword`... " />
+            <marker date="1481045889366" expanded="true" signature="43438:43574" ph="insert into resource_keyword... " />
+            <marker date="1481045889366" expanded="true" signature="43642:43702" ph="update keywo... " />
+            <marker date="1481045889366" expanded="true" signature="43931:44077" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="44475:44554" ph="select ref v... " />
+            <marker date="1481045889366" expanded="true" signature="44628:44748" ph="select ref,k... resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="47685:47776" ph="select value... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="49364:49455" ph="select value... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="50007:50092" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="50210:50310" ph="insert into resource_data... " />
+            <marker date="1481045889366" expanded="true" signature="51071:51153" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="57287:57374" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="57548:57601" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59106:59163" ph="select * fro... collection_resource" />
+            <marker date="1481045889366" expanded="true" signature="59525:59562" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59578:59625" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59641:59694" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59710:59760" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59776:59844" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59860:59913" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="59929:59985" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="60001:60055" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="60071:60123" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="60321:60356" ph="select max(r... " />
+            <marker date="1481045889366" expanded="true" signature="60510:60606" ph="select ref v... " />
+            <marker date="1481045889366" expanded="true" signature="61206:61259" ph="select count... " />
+            <marker date="1481045889366" expanded="true" signature="61481:61669" ph="SELECT rtf.r... " />
+            <marker date="1481045889366" expanded="true" signature="62095:62147" ph="select archi... " />
+            <marker date="1481045889366" expanded="true" signature="62364:62642" ph="insert into resource... " />
+            <marker date="1481045889366" expanded="true" signature="62463:62642" ph="select ${$ad... resource" />
+            <marker date="1481045889366" expanded="true" signature="63236:63293" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="63550:63892" ph="insert into resource_data... " />
+            <marker date="1481045889366" expanded="true" signature="63612:63892" ph="select '${$t... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="63990:64102" ph="insert into resource_related... " />
+            <marker date="1481045889366" expanded="true" signature="64037:64102" ph="select '${$t... resource_related" />
+            <marker date="1481045889366" expanded="true" signature="64134:64276" ph="insert into resource_custom_access... " />
+            <marker date="1481045889366" expanded="true" signature="64196:64276" ph="select '${$t... resource_custom_access" />
+            <marker date="1481045889366" expanded="true" signature="66381:66476" ph="UPDATE `reso... " />
+            <marker date="1481045889366" expanded="true" signature="66600:67178" ph="INSERT INTO `resource_log`... " />
+            <marker date="1481045889366" expanded="true" signature="68566:68620" ph="select name " />
+            <marker date="1481045889366" expanded="true" signature="69239:69635" ph="SELECT g.ref... usergroup" />
+            <marker date="1481045889366" expanded="true" signature="70084:70493" ph="SELECT g.nam... " />
+            <marker date="1481045889366" expanded="true" signature="70629:70716" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="70856:70961" ph="insert into resource_custom_access... " />
+            <marker date="1481045889366" expanded="true" signature="71240:71341" ph="select acces... " />
+            <marker date="1481045889366" expanded="true" signature="71697:71915" ph="select c.ref... collection_resource" />
+            <marker date="1481045889366" expanded="true" signature="72609:72667" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="72761:72945" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="72841:72944" ph="select ref f... resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="72961:73174" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="73070:73173" ph="select ref f... resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="73371:73447" ph="select name " />
+            <marker date="1481045889366" expanded="true" signature="73729:73797" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="73816:73916" ph="insert into resource_related... " />
+            <marker date="1481045889366" expanded="true" signature="74088:74385" ph="select f.ref... resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="84093:84243" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="86879:87106" ph="select ref,n... resource_alt_files" />
+            <marker date="1481045889366" expanded="true" signature="87252:87605" ph="insert into resource_alt_files... " />
+            <marker date="1481045889366" expanded="true" signature="88394:88427" ph="select id va... " />
+            <marker date="1481045889366" expanded="true" signature="89537:89609" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="89850:90001" ph="select ref,n... resource_alt_files" />
+            <marker date="1481045889366" expanded="true" signature="90248:90466" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="91018:91070" ph="select user,... user_rating" />
+            <marker date="1481045889366" expanded="true" signature="91588:91648" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="91693:91769" ph="update user_... " />
+            <marker date="1481045889366" expanded="true" signature="91950:92028" ph="insert into user_rating... " />
+            <marker date="1481045889366" expanded="true" signature="92335:92448" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="92729:92859" ph="SELECT user.... resource" />
+            <marker date="1481045889366" expanded="true" signature="98068:98432" ph="select ref, resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="99052:99378" ph="select ref, resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="100172:100429" ph="SELECT rk.re... resource_keyword" />
+            <marker date="1481045889366" expanded="true" signature="102441:102570" ph="select resou... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="103386:103469" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="104349:104478" ph="select resou... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="105049:105132" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="105444:105553" ph="select disti... " />
+            <marker date="1481045889366" expanded="true" signature="108059:108217" ph="SELECT acces... external_access_keys" />
+            <marker date="1481045889366" expanded="true" signature="113803:113943" ph="select acces... " />
+            <marker date="1481045889366" expanded="true" signature="114331:114495" ph="update exter... " />
+            <marker date="1481045889366" expanded="true" signature="115836:116041" ph="select cr.pu... " />
+            <marker date="1481045889366" expanded="true" signature="116409:116495" ph="select allow... " />
+            <marker date="1481045889366" expanded="true" signature="122259:122324" ph="select file_... " />
+            <marker date="1481045889366" expanded="true" signature="122371:122514" ph="select resou... resource" />
+            <marker date="1481045889366" expanded="true" signature="124627:124767" ph="select ref,f... resource" />
+            <marker date="1481045889366" expanded="true" signature="125483:126080" ph="select * fro... *" />
+            <marker date="1481045889366" expanded="true" signature="125500:125983" ph="select c.*,u... " />
+            <marker date="1481045889366" expanded="true" signature="126011:126075" ph="select colle... collection_resource" />
+            <marker date="1481045889366" expanded="true" signature="126215:126344" ph="select usage... resource_log" />
+            <marker date="1481045889366" expanded="true" signature="127123:127185" ph="select resou... " />
+            <marker date="1481045889366" expanded="true" signature="127233:127378" ph="select ref,a... resource_type_field" />
+            <marker date="1481045889366" expanded="true" signature="127435:127541" ph="select value... resource_data" />
+            <marker date="1481045889366" expanded="true" signature="128179:128212" ph="select id va... " />
+            <marker date="1481045889366" expanded="true" signature="128253:128331" ph="select file_... " />
+            <marker date="1481045889366" expanded="true" signature="130803:130892" ph="select file_... " />
+            <marker date="1481045889366" expanded="true" signature="133828:133882" ph="DELETE FROM " />
+            <marker date="1481045889366" expanded="true" signature="134946:135071" ph="select name " />
+            <marker date="1481045889366" expanded="true" signature="135665:135723" ph="select page_... " />
+            <marker date="1481045889366" expanded="true" signature="135860:135924" ph="select page_... " />
+            <marker date="1481045889366" expanded="true" signature="136453:136527" ph="select ref v... " />
+            <marker date="1481045889366" expanded="true" signature="137389:137449" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="137492:137558" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="137751:137816" ph="select file_... " />
+            <marker date="1481045889366" expanded="true" signature="138437:138547" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="138857:138993" ph="select ref v... " />
+            <marker date="1481045889366" expanded="true" signature="139172:139214" ph="select sum(d... " />
+            <marker date="1481045889366" expanded="true" signature="140164:140218" ph="select creat... " />
+            <marker date="1481045889366" expanded="true" signature="141559:141604" ph="select email... " />
+            <marker date="1481045889366" expanded="true" signature="142153:142202" ph="select * fro... resource_dimensions" />
+            <marker date="1481045889366" expanded="true" signature="142408:142455" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="143678:143814" ph="insert into resource_dimensions... " />
+            <marker date="1481045889366" expanded="true" signature="143853:143968" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="144310:144446" ph="insert into resource_dimensions... " />
+            <marker date="1481045889366" expanded="true" signature="144485:144600" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="145922:146058" ph="insert into resource_dimensions... " />
+            <marker date="1481045889366" expanded="true" signature="146101:146216" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="146426:146545" ph="insert into resource_dimensions... " />
+            <marker date="1481045889366" expanded="true" signature="146588:146687" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="147376:147615" ph="insert into external_access_keys... " />
+            <marker date="1481045889366" expanded="true" signature="148049:148359" ph="select acces... external_access_keys" />
+            <marker date="1481045889366" expanded="true" signature="148457:148545" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="149188:149283" ph="select confi... " />
+            <marker date="1481045889366" expanded="true" signature="149641:149746" ph="update resou... " />
+            <marker date="1481045889366" expanded="true" signature="150066:150236" ph="SELECT ref A... " />
+            <marker date="1481045889366" expanded="true" signature="150831:150921" ph="SELECT resou... " />
+            <marker date="1481045889366" expanded="true" signature="151301:151470" ph="UPDATE resou... " />
+            <marker date="1481045889366" expanded="true" signature="151719:151784" ph="DELETE FROM " />
+            <marker date="1481045889366" expanded="true" signature="152001:152142" ph="select count... " />
+            <marker date="1481045889366" expanded="true" signature="152249:152368" ph="delete from " />
+            <marker date="1481045889366" expanded="true" signature="152486:152559" ph="insert into resource_related... " />
+            <marker date="1481045889366" expanded="true" signature="153542:153646" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/accessibility/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/annotate/hooks/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/annotate/hooks/preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/annotate/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <marker date="1439407084000" expanded="true" signature="66:182" ph="delete from " />
+            <marker date="1439407084000" expanded="true" signature="147:181" ph="select note_... annotate_notes" />
+            <marker date="1439407084000" expanded="true" signature="429:474" ph="select * fro... annotate_notes" />
+            <marker date="1439407084000" expanded="true" signature="921:964" ph="delete from " />
+            <marker date="1439407084000" expanded="true" signature="980:1035" ph="update resou... " />
+            <marker date="1439407084000" expanded="true" signature="1052:1123" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/api_core/hooks/user_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/api_core/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423686172000" expanded="true" signature="120:161" ph="select ref v... " />
+            <marker date="1423686172000" expanded="true" signature="185:296" ph="select ref, resource_type_field" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/api_upload/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <marker date="1454534936000" expanded="true" signature="1455:1571" ph="select ref v... " />
+            <marker date="1454534936000" expanded="true" signature="1784:1855" ph="select title... " />
+            <marker date="1454534936000" expanded="true" signature="2088:2158" ph="select type " />
+            <marker date="1454534936000" expanded="true" signature="3938:4059" ph="update resou... " />
+            <marker date="1454534936000" expanded="true" signature="4940:5015" ph="select name " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/checkmail/hooks/team_resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/checkmail/hooks/check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/checkmail/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/csv_upload/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/collection_manage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="244" column="8" lean-forward="false" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="8" />
+          <folding>
+            <marker date="1440187838000" expanded="true" signature="3291:3374" ph="SELECT ref v... " />
+            <marker date="1440187838000" expanded="true" signature="5388:5392" ph="&gt;" />
+            <marker date="1440187838000" expanded="true" signature="9422:9505" ph="SELECT ref v... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/collection_public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/resource_collection_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/legacy_actions/hooks/themes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/rss2/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/rss2/hooks/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/yt2rs/hooks/upload_plupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/yt2rs/hooks/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/youtube_publish/hooks/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464707546000" expanded="true" signature="440:446" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/youtube_publish/hooks/check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/hooks/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/annotate/hooks/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/e92d0b74-f101-4786-bd0e-ccacd0b11575/var/www/html/resourcespace/plugins/slack_connect/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ResourceSpace_7_9_8760/plugins/user_preferences/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slack-ResourceSpace/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slack-ResourceSpace/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack_connect/hooks/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

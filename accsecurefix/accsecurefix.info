@@ -1,0 +1,3 @@
+name = ACC Secure Fix
+description = Module Designed to Fix the secure vs. insecure areas of the site resulting from our multi-system architecture.
+core = 7.x

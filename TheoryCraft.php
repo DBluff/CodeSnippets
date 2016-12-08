@@ -18,6 +18,15 @@ if($vanURL[0] != '' && preg_match_all('/([\/])/', $vanURL[0])<2 && preg_match_al
     print '</a></div>';
 }
 
+?>
+
+
+
+
+.page-node-19897 .views-row-last {
+border-bottom: 1px solid black;
+padding-bottom: 3%;
+}
 
 
 
